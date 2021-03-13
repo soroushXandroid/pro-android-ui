@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:paddingBottom="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".userpanel.TvFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/pager_first"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+        
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/dot_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@id/pager_first"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:tabIndicatorHeight="0dp"
+            app:tabGravity="center"
+            android:layout_marginBottom="30dp"
+            app:tabBackground="@drawable/tab_selector"
+            android:background="@android:color/transparent">
+
+        </com.google.android.material.tabs.TabLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_samsung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/pager_first"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:orientation="vertical"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.Shop.Button.TextButton"
+            android:text="Samsung Televisions"
+            android:textAllCaps="false"
+            android:gravity="start"
+            app:icon="@drawable/ic_arrow_right"
+            app:iconGravity="end"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_tv_samsung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutAnimation="@anim/layout_animation"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            android:orientation="horizontal"
+            android:background="@drawable/recycler_sams_bg"
+            android:paddingStart="5dp"
+            android:paddingEnd="0dp"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:elevation="3dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"/>
+
+    </LinearLayout>
+
+        <LinearLayout
+        android:id="@+id/linear_apple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/linear_samsung"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:orientation="vertical"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.Shop.Button.TextButton"
+            android:text="Apple Televisions"
+            android:textAllCaps="false"
+            android:gravity="start"
+            android:textColor="#635D33"
+            app:iconTint="#635D33"
+            app:icon="@drawable/ic_arrow_right"
+            app:iconGravity="end"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_tv_apple"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/recycler_apple_bg"
+            android:layoutAnimation="@anim/layout_animation"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            android:paddingStart="5dp"
+            android:paddingEnd="0dp"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:elevation="3dp"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"/>
+
+    </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/linear_apple"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:orientation="vertical"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.Shop.Button.TextButton"
+            android:text="LG Televisions"
+            android:textAllCaps="false"
+            android:textColor="#C65252"
+            app:iconTint="#C65252"
+            android:gravity="start"
+            app:icon="@drawable/ic_arrow_right"
+            app:iconGravity="end"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_tv_lg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/recycler_lg_bg"
+            android:paddingStart="5dp"
+            android:paddingEnd="0dp"
+            android:layoutAnimation="@anim/layout_animation"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:elevation="3dp"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"/>
+
+    </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

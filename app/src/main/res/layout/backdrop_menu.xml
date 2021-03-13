@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="@dimen/backdrop_item_margin"
+        app:cardElevation="@dimen/backdrop_cardElevation"
+        app:cardCornerRadius="@dimen/backdrop_cardRadius">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/backdrop_linear_padding"
+            android:background="@drawable/backdrop_item_bg">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="@dimen/backdrop_imageview_wh"
+                android:layout_height="@dimen/backdrop_imageview_wh"
+                app:srcCompat="@drawable/ic_person"
+                app:tint="@color/metalicBlack"
+                android:layout_gravity="center"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="@dimen/backdrop_til_width"
+                android:layout_height="wrap_content"
+                style="@style/Widget.Shop.TextInputLayout"
+                android:layout_marginTop="@dimen/backdrop_til_marginTop"
+                android:hint="Name . Family">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:textSize="@dimen/backdrop_et_textSize"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="@dimen/backdrop_item_margin"
+        app:cardElevation="@dimen/backdrop_cardElevation"
+        app:cardCornerRadius="@dimen/backdrop_cardRadius">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/backdrop_linear_padding"
+            android:background="@drawable/backdrop_item_bg">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="@dimen/backdrop_imageview_wh"
+                android:layout_height="@dimen/backdrop_imageview_wh"
+                app:srcCompat="@drawable/ic_phone"
+                android:layout_gravity="center"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="@dimen/backdrop_til_width"
+                android:layout_height="wrap_content"
+                style="@style/Widget.Shop.TextInputLayout"
+                android:layout_marginTop="@dimen/backdrop_til_marginTop"
+                android:hint="Phone Number">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:textSize="@dimen/backdrop_et_textSize"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/cv_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="@dimen/backdrop_item_margin"
+        app:cardElevation="@dimen/backdrop_cardElevation"
+        app:cardCornerRadius="@dimen/backdrop_cardRadius">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/backdrop_linear_padding"
+            android:background="@drawable/backdrop_item_bg">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="@dimen/backdrop_imageview_wh"
+                android:layout_height="@dimen/backdrop_imageview_wh"
+                app:srcCompat="@drawable/ic_wallet"
+                android:layout_gravity="center"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="@dimen/backdrop_til_width"
+                android:layout_height="wrap_content"
+                style="@style/Widget.Shop.TextInputLayout"
+                android:layout_marginTop="@dimen/backdrop_til_marginTop"
+                android:hint="Cash">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:textSize="@dimen/backdrop_et_textSize"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/cv_phone"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="@dimen/backdrop_item_margin"
+        app:cardElevation="@dimen/backdrop_cardElevation"
+        app:cardCornerRadius="@dimen/backdrop_cardRadius">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/backdrop_linear_padding"
+            android:background="@drawable/backdrop_item_bg">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="@dimen/backdrop_imageview_wh"
+                android:layout_height="@dimen/backdrop_imageview_wh"
+                app:srcCompat="@drawable/ic_store"
+                android:layout_gravity="center"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="@dimen/backdrop_til_width"
+                android:layout_height="wrap_content"
+                style="@style/Widget.Shop.TextInputLayout"
+                android:layout_marginTop="@dimen/backdrop_til_marginTop"
+                android:hint="Open Items">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:textSize="@dimen/backdrop_et_textSize"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/mb_support"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.65"
+        style="@style/Widget.Shop.Button.TextButton"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
+        android:text="support"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/mb_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/mb_support"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        style="@style/Widget.Shop.Button.TextButton"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
+        android:text="about us"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/mb_guide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/mb_about"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        style="@style/Widget.Shop.Button.TextButton"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
+        android:text="guide"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

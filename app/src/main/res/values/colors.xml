@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#068575</color>
+    <color name="colorPrimaryDark">#EA0D453E</color>
+    <color name="colorAccent">#f2e58d</color>
+    <color name="textIconPrimary">#635912</color>
+    <color name="windowBackground">#FFF8C5</color>
+    <color name="toolbarIconColor">@color/textIconPrimary</color>
+    <color name="khakestari">#E4DFDF</color>
+    <color name="tablayout_color">#E6DCE7F4</color>
+    <color name="sefid">#FFFFFF</color>
+    <color name="metalicBlack">#333333</color>
+</resources>
