@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ConfirmActivity">
+
+    <LinearLayout
+        android:id="@+id/linear_confirm_back"
+        android:layout_height="35dp"
+        android:layout_width="35dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/back_selector"
+        android:layout_margin="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:elevation="5dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_arrow_back"
+            android:layout_gravity="center"
+            android:layout_marginStart="11dp"
+            android:tint="#6A50D6"/>
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_first_layout"
+        android:layout_width="330dp"
+        android:layout_height="198dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="65dp"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="0dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/credit_color">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_balance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_margin="30dp"
+                android:text="Balance"
+                android:textColor="@android:color/white"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_credit_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/tv_balance"
+                app:layout_constraintStart_toStartOf="@id/tv_balance"
+                android:layout_marginTop="0dp"
+                android:textColor="@android:color/white"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@id/tv_balance"
+                android:layout_marginTop="20dp"
+                android:text="xxxx    xxxx    xxxx    1234"
+                android:textColor="@android:color/white"
+                android:letterSpacing="0.07"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/credit_owner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_margin="30dp"
+                android:text="SAM SABERI"
+                android:textColor="@android:color/white"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Overline"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/credit_owner"
+                app:layout_constraintStart_toStartOf="@id/credit_owner"
+                app:layout_constraintEnd_toEndOf="@id/credit_owner"
+                android:layout_marginTop="5dp"
+                android:text="00/04"
+                android:textColor="@android:color/white"
+                android:textSize="9sp"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_credit_cvv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toEndOf="@id/credit_owner"
+                app:layout_constraintTop_toTopOf="@id/credit_owner"
+                app:layout_constraintBottom_toBottomOf="@id/credit_owner"
+                android:text="CVV2"
+                android:textColor="@android:color/white"
+                android:layout_marginStart="25dp"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Overline"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/tv_credit_cvv2"
+                app:layout_constraintStart_toStartOf="@id/tv_credit_cvv2"
+                app:layout_constraintEnd_toEndOf="@id/tv_credit_cvv2"
+                android:text=". . ."
+                android:textColor="@android:color/white"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cs_end_credit"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/card_first_layout"
+        app:layout_constraintStart_toStartOf="@id/card_first_layout"
+        app:layout_constraintEnd_toEndOf="@id/card_first_layout">
+
+        <LinearLayout
+            android:id="@+id/linear_second"
+            android:layout_width="294dp"
+            android:layout_height="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/credit_background_bg"
+            android:alpha="0.5"
+            android:orientation="horizontal" />
+
+        <LinearLayout
+            android:layout_width="258dp"
+            android:layout_height="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linear_second"
+            android:background="@drawable/credit_background_bg"
+            android:alpha="0.2"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:id="@+id/seperator_1"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        app:layout_constraintTop_toBottomOf="@id/cs_end_credit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="55dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/colorPrimaryDark"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_cost_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/seperator_1"
+        app:layout_constraintStart_toStartOf="@id/seperator_1"
+        android:layout_marginTop="35dp"
+        android:text="Cost"
+        android:fontFamily="@font/montserrat_regular"
+        android:textColor="@color/metalicBlack"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_cost_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/seperator_1"
+        app:layout_constraintEnd_toEndOf="@id/seperator_1"
+        android:layout_marginTop="35dp"
+        android:fontFamily="@font/montserrat_regular"
+        android:textColor="@color/metalicBlack"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_shipping_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tv_cost_text"
+        app:layout_constraintStart_toStartOf="@id/seperator_1"
+        android:layout_marginTop="25dp"
+        android:text="Shipping Cost"
+        android:fontFamily="@font/montserrat_regular"
+        android:textColor="@color/metalicBlack"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_shiping_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tv_cost_price"
+        app:layout_constraintEnd_toEndOf="@id/seperator_1"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/montserrat_regular"
+        android:textColor="@color/metalicBlack"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_tax_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tv_shipping_text"
+        app:layout_constraintStart_toStartOf="@id/seperator_1"
+        android:layout_marginTop="25dp"
+        android:text="Tax"
+        android:fontFamily="@font/montserrat_regular"
+        android:textColor="@color/metalicBlack"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_tax_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tv_shiping_price"
+        app:layout_constraintEnd_toEndOf="@id/seperator_1"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/montserrat_regular"
+        android:textColor="@color/metalicBlack"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"/>
+
+    <View
+        android:id="@+id/seperator_2"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_tax_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/colorPrimaryDark"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_total_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/seperator_2"
+        app:layout_constraintStart_toStartOf="@id/seperator_2"
+        android:layout_marginTop="25dp"
+        android:text="Total Price"
+        android:fontFamily="@font/montserrat_regular"
+        android:textColor="@color/metalicBlack"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_total_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/seperator_2"
+        app:layout_constraintEnd_toEndOf="@id/seperator_2"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/montserrat_regular"
+        android:textColor="#6A50D6"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"/>
+
+    <View
+        android:id="@+id/seperator_3"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_total_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/colorPrimaryDark"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="230dp"
+        android:layout_height="65dp"
+        app:layout_constraintTop_toBottomOf="@id/seperator_3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Confirm"
+        app:icon="@drawable/ic_check"
+        android:layout_marginTop="45dp"
+        android:elevation="7dp"
+        app:iconGravity="textEnd"
+        android:fontFamily="@font/montserrat_regular"
+        android:backgroundTint="#35286B"
+        app:shapeAppearance="@style/Round"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

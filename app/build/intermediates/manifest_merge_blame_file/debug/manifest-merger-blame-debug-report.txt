@@ -7,17 +7,17 @@
 7    <uses-sdk
 8        android:minSdkVersion="23"
 8-->C:\Users\Soroush\AndroidStudioProjects\ProTrial\app\src\main\AndroidManifest.xml
-9        android:targetSdkVersion="28" />
+9        android:targetSdkVersion="30" />
 9-->C:\Users\Soroush\AndroidStudioProjects\ProTrial\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\Soroush\AndroidStudioProjects\ProTrial\app\src\main\AndroidManifest.xml:5:5-29:19
+11-->C:\Users\Soroush\AndroidStudioProjects\ProTrial\app\src\main\AndroidManifest.xml:5:5-34:19
 12        android:name="com.soroush.protrial.App"
 12-->C:\Users\Soroush\AndroidStudioProjects\ProTrial\app\src\main\AndroidManifest.xml:6:9-28
 13        android:allowBackup="true"
 13-->C:\Users\Soroush\AndroidStudioProjects\ProTrial\app\src\main\AndroidManifest.xml:7:9-35
 14        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-14-->[androidx.core:core:1.3.1] C:\Users\Soroush\.gradle\caches\transforms-2\files-2.1\a76373c060799c20e21d32fd437f9864\core-1.3.1\AndroidManifest.xml:24:18-86
+14-->[androidx.core:core:1.5.0] E:\Android Portable\android-studio-portable\data\.gradle\caches\transforms-2\files-2.1\07adfc08fe16d3453ab9291511ec05fe\core-1.5.0\AndroidManifest.xml:24:18-86
 15        android:debuggable="true"
 16        android:extractNativeLibs="false"
 17        android:icon="@mipmap/ic_fire_new"
@@ -32,30 +32,39 @@
 22        android:theme="@style/AppTheme.NAB" >
 22-->C:\Users\Soroush\AndroidStudioProjects\ProTrial\app\src\main\AndroidManifest.xml:12:9-44
 23        <activity
-23-->C:\Users\Soroush\AndroidStudioProjects\ProTrial\app\src\main\AndroidManifest.xml:13:9-17:20
-24            android:name="com.soroush.protrial.ProductActivity"
+23-->C:\Users\Soroush\AndroidStudioProjects\ProTrial\app\src\main\AndroidManifest.xml:13:9-18:20
+24            android:name="com.soroush.protrial.ConfirmActivity"
 24-->C:\Users\Soroush\AndroidStudioProjects\ProTrial\app\src\main\AndroidManifest.xml:14:13-44
-25            android:label="" >
-25-->C:\Users\Soroush\AndroidStudioProjects\ProTrial\app\src\main\AndroidManifest.xml:15:13-29
-26        </activity>
-27        <activity android:name="com.soroush.protrial.LoginActivity" >
-27-->C:\Users\Soroush\AndroidStudioProjects\ProTrial\app\src\main\AndroidManifest.xml:18:9-24:20
-27-->C:\Users\Soroush\AndroidStudioProjects\ProTrial\app\src\main\AndroidManifest.xml:18:19-48
-28            <intent-filter>
-28-->C:\Users\Soroush\AndroidStudioProjects\ProTrial\app\src\main\AndroidManifest.xml:19:13-23:29
-29                <action android:name="android.intent.action.MAIN" />
-29-->C:\Users\Soroush\AndroidStudioProjects\ProTrial\app\src\main\AndroidManifest.xml:20:17-69
-29-->C:\Users\Soroush\AndroidStudioProjects\ProTrial\app\src\main\AndroidManifest.xml:20:25-66
-30
-31                <category android:name="android.intent.category.LAUNCHER" />
-31-->C:\Users\Soroush\AndroidStudioProjects\ProTrial\app\src\main\AndroidManifest.xml:22:17-77
-31-->C:\Users\Soroush\AndroidStudioProjects\ProTrial\app\src\main\AndroidManifest.xml:22:27-74
-32            </intent-filter>
-33        </activity>
-34        <activity android:name="com.soroush.protrial.UserPanel" >
-34-->C:\Users\Soroush\AndroidStudioProjects\ProTrial\app\src\main\AndroidManifest.xml:25:9-27:20
-34-->C:\Users\Soroush\AndroidStudioProjects\ProTrial\app\src\main\AndroidManifest.xml:25:19-44
-35        </activity>
-36    </application>
-37
-38</manifest>
+25            android:configChanges="orientation|keyboardHidden|screenSize"
+25-->C:\Users\Soroush\AndroidStudioProjects\ProTrial\app\src\main\AndroidManifest.xml:15:13-74
+26            android:label="@string/title_activity_confirm" >
+26-->C:\Users\Soroush\AndroidStudioProjects\ProTrial\app\src\main\AndroidManifest.xml:16:13-59
+27        </activity>
+28        <activity
+28-->C:\Users\Soroush\AndroidStudioProjects\ProTrial\app\src\main\AndroidManifest.xml:19:9-23:20
+29            android:name="com.soroush.protrial.ProductActivity"
+29-->C:\Users\Soroush\AndroidStudioProjects\ProTrial\app\src\main\AndroidManifest.xml:20:13-44
+30            android:label="" >
+30-->C:\Users\Soroush\AndroidStudioProjects\ProTrial\app\src\main\AndroidManifest.xml:21:13-29
+31        </activity>
+32        <activity android:name="com.soroush.protrial.LoginActivity" >
+32-->C:\Users\Soroush\AndroidStudioProjects\ProTrial\app\src\main\AndroidManifest.xml:24:9-30:20
+32-->C:\Users\Soroush\AndroidStudioProjects\ProTrial\app\src\main\AndroidManifest.xml:24:19-48
+33            <intent-filter>
+33-->C:\Users\Soroush\AndroidStudioProjects\ProTrial\app\src\main\AndroidManifest.xml:25:13-29:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->C:\Users\Soroush\AndroidStudioProjects\ProTrial\app\src\main\AndroidManifest.xml:26:17-69
+34-->C:\Users\Soroush\AndroidStudioProjects\ProTrial\app\src\main\AndroidManifest.xml:26:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->C:\Users\Soroush\AndroidStudioProjects\ProTrial\app\src\main\AndroidManifest.xml:28:17-77
+36-->C:\Users\Soroush\AndroidStudioProjects\ProTrial\app\src\main\AndroidManifest.xml:28:27-74
+37            </intent-filter>
+38        </activity>
+39        <activity android:name="com.soroush.protrial.UserPanel" >
+39-->C:\Users\Soroush\AndroidStudioProjects\ProTrial\app\src\main\AndroidManifest.xml:31:9-33:20
+39-->C:\Users\Soroush\AndroidStudioProjects\ProTrial\app\src\main\AndroidManifest.xml:31:19-44
+40        </activity>
+41    </application>
+42
+43</manifest>

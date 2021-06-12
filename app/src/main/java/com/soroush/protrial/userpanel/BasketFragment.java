@@ -3,28 +3,28 @@ package com.soroush.protrial.userpanel;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatImageView;
-import androidx.appcompat.widget.AppCompatTextView;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
+import androidx.recyclerview.widget.DefaultItemAnimator;
+import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
-import android.os.CountDownTimer;
-import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
+import com.airbnb.lottie.SimpleColorFilter;
 import com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.soroush.protrial.App;
 import com.soroush.protrial.AppDatabase;
-import com.soroush.protrial.BrandAdapter;
 import com.soroush.protrial.BrandModel;
+import com.soroush.protrial.ConfirmActivity;
 import com.soroush.protrial.OrderAdapter;
 import com.soroush.protrial.R;
 
@@ -58,6 +58,12 @@ public class BasketFragment extends Fragment implements OrderAdapter.onItemRemov
         setUpRecycler();
         backArrowSetup();
         updatePrice();
+
+        fabPay.setOnClickListener(v -> {
+            Intent intent = new Intent();
+            intent.setClass(context, ConfirmActivity.class);
+            context.startActivity(intent);
+        });
     }
 
     @Nullable
@@ -73,7 +79,7 @@ public class BasketFragment extends Fragment implements OrderAdapter.onItemRemov
         if (!list.isEmpty()) {
 
             for (BrandModel model : list) {
-                totalPrice += Integer.parseInt(model.getDesc());
+                totalPrice += model.getAmount() * model.getPrice();
             }
 
         } else {
@@ -87,30 +93,39 @@ public class BasketFragment extends Fragment implements OrderAdapter.onItemRemov
     private void setUpRecycler() {
 
         recycler.setHasFixedSize(true);
-
-        recycler.setLayoutManager(new LinearLayoutManager(context));
+        recycler.addItemDecoration(new DividerItemDecoration(context, DividerItemDecoration.VERTICAL));
+        recycler.setItemAnimator(new DefaultItemAnimator());
 
         db = new AppDatabase(context);
-        list = db.getAllBasket(App.SAMSUNG_TABLE);
+        list = db.getAllBasket();
         adapter = new OrderAdapter(list, this);
         recycler.setAdapter(adapter);
         db.close();
 
     }
 
+    @SuppressLint("ClickableViewAccessibility")
     private void backArrowSetup(){
 
-        ivBack.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                FragmentManager fManager = getFragmentManager();
-                FragmentTransaction fTransaction = fManager.beginTransaction();
-                Fragment fragment = new TvFragment(context, (BrandAdapter.onClickItemListener) context);
-                fTransaction.setCustomAnimations(R.anim.right_in, R.anim.right_out);
-                fTransaction.replace(R.id.panel_container, fragment);
-                fTransaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
-                fTransaction.commit();
-            }
+        ivBack.setOnClickListener(v -> {
+            FragmentManager fManager = getParentFragmentManager();
+            FragmentTransaction fTransaction = fManager.beginTransaction();
+            Fragment fragment = new TvFragment(context);
+            fTransaction.setCustomAnimations(R.anim.right_in, R.anim.right_out);
+            fTransaction.replace(R.id.panel_container, fragment);
+            fTransaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
+            fTransaction.commit();
+        });
+
+        ivBack.setOnTouchListener((view, motionEvent) -> {
+
+            if (motionEvent.getAction() == MotionEvent.ACTION_DOWN)
+                ivBack.getDrawable().setColorFilter(new SimpleColorFilter(0xEEEEEEEE));
+            else if (motionEvent.getAction() == MotionEvent.ACTION_UP)
+                ivBack.getDrawable().clearColorFilter();
+            ivBack.invalidate();
+
+            return false;
         });
 
     }
@@ -127,11 +142,11 @@ public class BasketFragment extends Fragment implements OrderAdapter.onItemRemov
         btnSheetFragment = new RemoveConfirmation(new RemoveConfirmation.onConfirmationRemove() {
             @Override
             public void confRemove() {
-                db.updateBasket(App.SAMSUNG_TABLE, model.getId(), 0);
+                db.updateAmount(model.getId(), false);
                 list.remove(model);
                 adapter.notifyDataSetChanged();
                 updatePrice();
-                listener.onRemove();
+                listener.onRemove(model.getAmount());
                 btnSheetFragment.dismiss();
             }
 
@@ -140,12 +155,12 @@ public class BasketFragment extends Fragment implements OrderAdapter.onItemRemov
                 btnSheetFragment.dismiss();
             }
         });
-        btnSheetFragment.show(getFragmentManager(), btnSheetFragment.getTag());
+        btnSheetFragment.show(getChildFragmentManager(), btnSheetFragment.getTag());
 
     }
 
     public interface onRemoveSubmited{
-        void onRemove();
+        void onRemove(int amount);
     }
 
 }

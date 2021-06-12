@@ -147,7 +147,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="jar:file:/E:/Android.Package/android-studio/plugins/android/lib/android.jar!/images/material_design_icons/action/ic_credit_card_black_24dp.xml" />
+                                      <entry key="url" value="file:/$PROJECT_DIR$/../../../../sdk/icons/material/materialicons/check/baseline_check_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -157,8 +157,8 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="color" value="bb0100" />
-                            <entry key="outputName" value="ic_credit_card" />
+                            <entry key="color" value="ffffff" />
+                            <entry key="outputName" value="ic_check" />
                             <entry key="sourceFile" value="C:\Users\Soroush" />
                           </map>
                         </option>

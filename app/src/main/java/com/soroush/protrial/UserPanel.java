@@ -1,8 +1,5 @@
 package com.soroush.protrial;
 
-import android.content.Context;
-import android.content.Intent;
-import android.content.SharedPreferences;
 import android.graphics.PorterDuff;
 import android.os.Bundle;
 import android.util.Log;
@@ -14,6 +11,7 @@ import android.widget.LinearLayout;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.content.res.AppCompatResources;
 import androidx.appcompat.widget.AppCompatTextView;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.content.ContextCompat;
@@ -28,16 +26,17 @@ import com.soroush.protrial.userpanel.MobileFragment;
 import com.soroush.protrial.userpanel.RadioFragment;
 import com.soroush.protrial.userpanel.TvFragment;
 
-public class UserPanel extends AppCompatActivity implements BrandAdapter.onClickItemListener {
+import java.util.List;
+
+public class UserPanel extends AppCompatActivity implements BrandAdapter.AddItemClick{
 
     LinearLayout linear;
     TabLayout tabLayout;
     Fragment fragment = null;
     FragmentTransaction fTransaction;
     FragmentManager fManager;
-    private SharedPreferences pref;
-    AppCompatTextView tvBadge;
-    private int badgeNumber;
+    private AppCompatTextView tvBadge;
+    private int badgeNumber = 0;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -62,7 +61,7 @@ public class UserPanel extends AppCompatActivity implements BrandAdapter.onClick
                 switch (tab.getPosition()){
 
                     case 0:
-                        fragment = new TvFragment(UserPanel.this, UserPanel.this);
+                        fragment = new TvFragment(UserPanel.this);
                         break;
 
                     case 1:
@@ -102,12 +101,14 @@ public class UserPanel extends AppCompatActivity implements BrandAdapter.onClick
         View actionView = menuItem.getActionView();
         tvBadge = actionView.findViewById(R.id.cart_badge);
 
+        AppDatabase db = new AppDatabase(this);
+        List<BrandModel> list = db.getAllBasket();
+
+        for (BrandModel model : list){
+            badgeNumber += model.getAmount();
+        }
         updateBadge(badgeNumber);
-        actionView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                onOptionsItemSelected(menuItem);
-            }});
+        actionView.setOnClickListener(v -> onOptionsItemSelected(menuItem));
 
         return true;
     }
@@ -119,11 +120,10 @@ public class UserPanel extends AppCompatActivity implements BrandAdapter.onClick
 
             fManager = getSupportFragmentManager();
             fTransaction = fManager.beginTransaction();
-            fragment = new BasketFragment(this, new BasketFragment.onRemoveSubmited() {
-                @Override
-                public void onRemove() {
-                    updateBadge(--badgeNumber);
-                }});
+            fragment = new BasketFragment(this, amount -> {
+                badgeNumber -= amount;
+                updateBadge(badgeNumber);
+            });
             fTransaction.setCustomAnimations(R.anim.right_in, R.anim.right_out);
             fTransaction.replace(R.id.panel_container, fragment);
             fTransaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
@@ -139,7 +139,7 @@ public class UserPanel extends AppCompatActivity implements BrandAdapter.onClick
             tvBadge.setVisibility(View.INVISIBLE);
             counter = 0;
         }
-        else if (tvBadge.getVisibility() == View.INVISIBLE){
+        else {
             tvBadge.setVisibility(View.VISIBLE);
         }
         tvBadge.setText(String.valueOf(counter));
@@ -158,43 +158,23 @@ public class UserPanel extends AppCompatActivity implements BrandAdapter.onClick
                 this,
                 linear,
                 new AccelerateDecelerateInterpolator(),
-                getDrawable(R.drawable.ic_person),
-                getDrawable(R.drawable.ic_close),
+                AppCompatResources.getDrawable(this, R.drawable.ic_person),
+                AppCompatResources.getDrawable(this, R.drawable.ic_close),
                 toolbar));
     }
 
     private void initMainFragment(){
         fManager = getSupportFragmentManager();
         fTransaction = fManager.beginTransaction();
-        fragment = new TvFragment(this, this);
+        fragment = new TvFragment(this);
         fTransaction.replace(R.id.panel_container, fragment);
         fTransaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN);
         fTransaction.commit();
     }
 
     @Override
-    public void onSelected() {
+    public void onAddItem() {
         updateBadge(++badgeNumber);
-    }
-
-    @Override
-    public void onUnSelected() {
-        updateBadge(--badgeNumber);
-    }
-
-    @Override
-    protected void onStart() {
-        super.onStart();
-        pref = getSharedPreferences("badge", Context.MODE_PRIVATE);
-        badgeNumber = pref.getInt("badge-counter", 0);
-    }
-
-    @Override
-    protected void onStop() {
-        super.onStop();
-        SharedPreferences.Editor editor = pref.edit();
-        editor.putInt("badge-counter", badgeNumber);
-        editor.apply();
     }
 
 }

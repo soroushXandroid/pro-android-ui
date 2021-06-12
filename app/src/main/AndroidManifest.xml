@@ -11,11 +11,17 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NAB">
         <activity
+            android:name=".ConfirmActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_confirm">
+
+        </activity>
+        <activity
             android:name=".ProductActivity"
             android:label="">
 
         </activity>
-        <activity android:name=".LoginActivity" >
+        <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,7 +31,6 @@
         <activity android:name=".UserPanel">
 
         </activity>
-
     </application>
 
 </manifest>

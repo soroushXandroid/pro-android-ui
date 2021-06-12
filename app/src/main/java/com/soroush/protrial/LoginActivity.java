@@ -34,60 +34,58 @@ public class LoginActivity extends AppCompatActivity {
         findEelements();
         starterAnimation();
 
-        btnNext.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+        btnNext.setOnClickListener(v -> {
 
-                lottieLoading.setVisibility(View.VISIBLE);
-                lottieLoading.setAlpha(1f);
-                lottieLoading.playAnimation();
-                if (isValidPass(etPassword.getEditableText())){
+            lottieLoading.setVisibility(View.VISIBLE);
+            lottieLoading.setAlpha(1f);
+            lottieLoading.playAnimation();
+            if (isValidPass(etPassword.getEditableText())){
 
-                    lottieLoading.animate().alpha(0f).setDuration(1000).
-                            setListener(new AnimatorListenerAdapter() {
-                        @Override
-                        public void onAnimationEnd(Animator animation) {
-                            lottieLoading.setVisibility(View.GONE);
-                            lottieLoading.pauseAnimation();
-                            lottieLoading.cancelAnimation();
-
-                            tilPassword.setError(null);
-
-                            lottieConf.setVisibility(View.VISIBLE);
-                            lottieConf.playAnimation();
-                            lottieConf.addAnimatorListener(new AnimatorListenerAdapter() {
-                                @Override
-                                public void onAnimationEnd(Animator animation) {
-                                    Intent intent = new Intent(LoginActivity.this, UserPanel.class);
-                                    //overridePendingTransition(R.anim.right_in, R.anim.left_out);
-                                    startActivity(intent);
-                                    lottieConf.setVisibility(View.GONE);
-                                    lottieConf.pauseAnimation();
-                                    lottieConf.cancelAnimation();
-                                }});
-
-                        }});
-
-                } else {
-
-                    if (tilPassword.getError() == null) {
-                        lottieLoading.animate().alpha(0f).setDuration(1000).
-                                setListener(new AnimatorListenerAdapter() {
-                                    @Override
-                                    public void onAnimationEnd(Animator animation) {
-                                        tilPassword.setError("pass is not valid!");
-                                        lottieLoading.setVisibility(View.GONE);
-                                        lottieLoading.pauseAnimation();
-                                        lottieLoading.cancelAnimation();
-                                    }
-                                });
-                    } else {
+                lottieLoading.animate().alpha(0f).setDuration(1000).
+                        setListener(new AnimatorListenerAdapter() {
+                    @Override
+                    public void onAnimationEnd(Animator animation) {
                         lottieLoading.setVisibility(View.GONE);
                         lottieLoading.pauseAnimation();
                         lottieLoading.cancelAnimation();
-                    }
 
-                } }});
+                        tilPassword.setError(null);
+
+                        lottieConf.setVisibility(View.VISIBLE);
+                        lottieConf.playAnimation();
+                        lottieConf.addAnimatorListener(new AnimatorListenerAdapter() {
+                            @Override
+                            public void onAnimationEnd(Animator animation) {
+                                Intent intent = new Intent(LoginActivity.this, UserPanel.class);
+                                //overridePendingTransition(R.anim.right_in, R.anim.left_out);
+                                startActivity(intent);
+                                lottieConf.setVisibility(View.GONE);
+                                lottieConf.pauseAnimation();
+                                lottieConf.cancelAnimation();
+                            }});
+
+                    }});
+
+            } else {
+
+                if (tilPassword.getError() == null) {
+                    lottieLoading.animate().alpha(0f).setDuration(1000).
+                            setListener(new AnimatorListenerAdapter() {
+                                @Override
+                                public void onAnimationEnd(Animator animation) {
+                                    tilPassword.setError("pass is not valid!");
+                                    lottieLoading.setVisibility(View.GONE);
+                                    lottieLoading.pauseAnimation();
+                                    lottieLoading.cancelAnimation();
+                                }
+                            });
+                } else {
+                    lottieLoading.setVisibility(View.GONE);
+                    lottieLoading.pauseAnimation();
+                    lottieLoading.cancelAnimation();
+                }
+
+            } });
 
 
 

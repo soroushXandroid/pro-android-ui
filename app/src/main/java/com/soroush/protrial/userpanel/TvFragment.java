@@ -4,7 +4,6 @@ import android.content.Context;
 import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.appcompat.widget.AppCompatTextView;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -39,10 +38,9 @@ public class TvFragment extends Fragment {
     private AppDatabase db;
 
     private int page = 0;
-    private BrandAdapter.onClickItemListener listener;
-    public TvFragment(Context context, BrandAdapter.onClickItemListener listener) {
+
+    public TvFragment(Context context) {
         this.context = context;
-        this.listener = listener;
     }
 
     @Override
@@ -121,15 +119,18 @@ public class TvFragment extends Fragment {
                 (context, RecyclerView.HORIZONTAL, false));
 
         db = new AppDatabase(context);
-        sList = db.getAllData(App.SAMSUNG_TABLE);
-        aList = db.getAllData(App.APPLE_TABLE);
-        lList = db.getAllData(App.LG_TABLE);
-        db.close();
+        for (BrandModel model : db.getAllData()){
+            if (model.getName().equals(App.SAMSUNG))
+                sList.add(model);
+            else if (model.getName().equals(App.APPLE))
+                aList.add(model);
+            else lList.add(model);
+        }
 
         BrandAdapter sAdapter, aAdapter, lAdapter;
-        sAdapter = new BrandAdapter(sList, db, listener);
-        aAdapter = new BrandAdapter(aList, db, listener);
-        lAdapter = new BrandAdapter(lList, db, listener);
+        sAdapter = new BrandAdapter(sList, db, (BrandAdapter.AddItemClick) context);
+        aAdapter = new BrandAdapter(aList, db, (BrandAdapter.AddItemClick) context);
+        lAdapter = new BrandAdapter(lList, db, (BrandAdapter.AddItemClick) context);
         rcSamsung.setAdapter(sAdapter);
         rcApple.setAdapter(aAdapter);
         rcLg.setAdapter(lAdapter);

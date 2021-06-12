@@ -1,0 +1,466 @@
+[
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_wallet.png.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\ic_wallet.png"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fourth.jpg.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\fourth.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_search.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\ic_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cart_appbar_bg.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\cart_appbar_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_opt_this.png.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\opt_this.png"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\layout_panel_user.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\layout\\panel_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_fire_new_round.png.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\mipmap-xhdpi\\ic_fire_new_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_fire_new_foreground.png.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_fire_new_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_fire_new.png.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\mipmap-hdpi\\ic_fire_new.png"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_recycler_lg_bg.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\recycler_lg_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_product.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\layout\\activity_product.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ph_first.jpg.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\ph_first.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_fire_new_round.png.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_fire_new_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_fire_new_round.png.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\mipmap-mdpi\\ic_fire_new_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_second.jpg.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\second.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tab_selector.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\tab_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_store.png.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\ic_store.png"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_third.jpg.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\third.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_credit_background_bg.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\credit_background_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_fire_new.png.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_fire_new.png"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_arrow_back.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\ic_arrow_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ph_second.jpg.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\ph_second.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_se.jpg.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\se.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\menu_toolbar_menu.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\menu\\toolbar_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_arrow_right.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\ic_arrow_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_fire_new.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_fire_new.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\raw_conf_golden.json.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\raw\\conf_golden.json"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_opt_th.png.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\opt_th.png"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_order_amount_bg.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\order_amount_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_tv.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\ic_tv.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_user.png.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\ic_user.png"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_product_header_bg.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable-v24\\product_header_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_plus.png.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\ic_plus.png"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\layout_confirmation_remove.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\layout\\confirmation_remove.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_fire_new_foreground.png.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\mipmap-mdpi\\ic_fire_new_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_fire_new_round.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_fire_new_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_laptop.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\ic_laptop.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_close.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\ic_close.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_back_pressed.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\back_pressed.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_phone.png.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\ic_phone.png"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\anim_left_in.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\anim\\left_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_whatshot.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\ic_whatshot.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\font_robotoslab_bold.ttf.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\font\\robotoslab_bold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_recycler_apple_bg.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\recycler_apple_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_fire_new_foreground.png.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_fire_new_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_confirm.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\layout\\activity_confirm.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\anim_layout_animation.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\anim\\layout_animation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_credit_card.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\ic_credit_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\anim_recycler_item_anim.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\anim\\recycler_item_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_fire_new.png.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\mipmap-mdpi\\ic_fire_new.png"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_backdrop_item_bg.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\backdrop_item_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_nav_menu.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\ic_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_basket.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\layout\\fragment_basket.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\anim_right_out.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\anim\\right_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_fire_new_foreground.png.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\mipmap-hdpi\\ic_fire_new_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_laptop.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\layout\\fragment_laptop.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_back_selector.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\back_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\animator_elevation_anim.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\animator\\elevation_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\layout_basket_badge_layout.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\layout\\basket_badge_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\layout_backdrop_menu.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\layout\\backdrop_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_info_bg.png.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\info_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\layout_pager_model.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\layout\\pager_model.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_add.png.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\add.png"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tab_defualt.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\tab_defualt.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_basket.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\ic_basket.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_radio.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\ic_radio.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_back_bg.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\back_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_first.jpg.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\first.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_recycler_sams_bg.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\recycler_sams_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\anim_left_out.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\anim\\left_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\font_montserrat_regular.ttf.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\font\\montserrat_regular.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_th.jpg.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\th.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_product.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\menu\\menu_product.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_fire_new.png.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\mipmap-xhdpi\\ic_fire_new.png"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_opt_se.png.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\opt_se.png"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bottom_sheet_bg.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\bottom_sheet_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_tv.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\layout\\fragment_tv.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_person.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\ic_person.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_fire_new_background.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\ic_fire_new_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_opt_first.png.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\opt_first.png"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\layout_basket_orders.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\layout\\basket_orders.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\anim_right_in.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\anim\\right_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\raw_infinite_loading.json.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\raw\\infinite_loading.json"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_fire_new_round.png.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_fire_new_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_device.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\ic_device.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_mobile.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\layout\\fragment_mobile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_minus.png.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\minus.png"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_fire_new_foreground.png.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\mipmap-xhdpi\\ic_fire_new_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_check.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\ic_check.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\layout_card_model.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\layout\\card_model.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_amount_bg.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\amount_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_card_default.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\card_default.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_input_bg.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\input_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_remove.png.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\ic_remove.png"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fi.jpg.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\fi.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_radio.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\layout\\fragment_radio.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_badge_background.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\badge_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_fire_new.png.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_fire_new.png"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_credit_color.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\credit_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_fire_new_round.png.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\mipmap-hdpi\\ic_fire_new_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tab_selected.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\drawable\\tab_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Soroush\\AndroidStudioProjects\\ProTrial\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    }
+]

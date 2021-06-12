@@ -32,13 +32,7 @@ public class OrderAdapter extends RecyclerView.Adapter<OrderHolder>{
     public void onBindViewHolder(@NonNull OrderHolder holder, int position) {
         final BrandModel model = list.get(position);
         holder.initViews(model);
-        holder.ivRemove.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                listener.onRemove(model);
-
-            }});
+        holder.ivRemove.setOnClickListener(v -> listener.onRemove(model));
 
     }
 
